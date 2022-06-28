@@ -4,7 +4,7 @@ from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButt
 import logging, sqlite3
 conn = sqlite3.connect('Xakdb.db')
 cursor = conn.cursor()
-API_TOKEN = '5284901920:AAH-062qW6F_Eo1xpv4W12cJW_pPZmP_v_o'
+API_TOKEN = '5319476560:AAH2FTShepOqz7lNdaz18kscdkzI0zARiMg'
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
